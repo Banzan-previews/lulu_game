@@ -1,0 +1,66 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.p-2{
+    padding: 2px;
+}
+.p-4{
+    padding: 4px;
+}
+.p-10{
+    padding: 10px;
+}
+
+
+
+.space-5{
+    height: 5px;
+    width: 100%;
+}
+.space-10{
+    height: 10px;
+    width: 100%;
+    }
+.space-20{
+    height: 20px;
+    width: 100%;
+}
+.space-50{
+    height: 50px;
+    width: 100%;
+}
+.space-100{
+    height: 100px;
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Gobold';
+    src: local('Gobold'), url(./assets/fonts/Gobold.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(./assets/fonts/Montserrat.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'MontserratAlternatesBlack';
+    src: local('MontserratAlternatesBlack'), url(./assets/fonts/MontserratAlternatesBlack.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'MontserratAlternatesRegular';
+    src: local('MontserratAlternatesRegular'), url(./assets/fonts/MontserratAlternatesRegular.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Zil';
+    src: local('Zil'), url(./assets/fonts/Zil.ttf) format('opentype');
+  }
