@@ -25,8 +25,8 @@ function App() {
             options={{enableMouseEvents:true}}
             > */}
           <DndProvider backend={TouchBackend}>
-            <Route  path="/" component={Home} />
             <Route exact path="/drag" component={Drag} />
+            <Route  path="/" component={Home} />
             {/* <Route exact path="/drag" component={Drag} /> */}
           </DndProvider>
         </Switch>
