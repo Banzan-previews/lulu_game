@@ -23,7 +23,7 @@ export default function Gameplaycart(props) {
                             <Titlebar 
                                 timerDisplay={
                                     <Timer  
-                                        initialSeconds={10} 
+                                        initialSeconds={45} 
                                         trigger={values.updateScreenName}
                                         />
                                     }
